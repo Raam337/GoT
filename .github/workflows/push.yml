@@ -1,6 +1,6 @@
 # push.yml
 
-#  Name of workflow
+# Name of workflow
 name: Push workflow
 
 # When workflow is triggered
@@ -39,4 +39,4 @@ jobs:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         with:
           args: deploy --dir=build --prod
-          secrets: '["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]'
+          secrets: [NETLIFY_AUTH_TOKEN, NETLIFY_SITE_ID]
