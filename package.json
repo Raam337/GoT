@@ -1,5 +1,5 @@
 {
-  "name": "GoT",
+  "name": "got",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,6 +14,8 @@
     "@popperjs/core": "^2.11.8",
     "axios": "^1.6.7",
     "bootstrap": "^5.3.3",
+    "http-proxy-agent": "^7.0.2",
+    "npm": "^10.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3"
@@ -32,5 +34,17 @@
     "jsdom": "^24.0.0",
     "vite": "^4.4.5",
     "vitest": "^1.3.1"
-  }
+  },
+  "description": "* In this demonstration, the instructor will walk you through the process of deploying a GitHub repo with Netlify via a continuous development pipeline.",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raam337/GoT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raam337/GoT/issues"
+  },
+  "homepage": "https://github.com/Raam337/GoT#readme"
 }
